@@ -6,8 +6,13 @@ grounded FAQ answering, identity verification, and conversational loan form fill
 
 import logging
 from pathlib import Path
+import sys
 import tempfile
 from typing import Any, Dict, List, Optional
+
+_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile, status
 from fastapi.responses import FileResponse

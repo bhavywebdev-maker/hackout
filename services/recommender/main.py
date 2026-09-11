@@ -9,7 +9,12 @@ import json
 import logging
 import os
 from pathlib import Path
+import sys
 from typing import Any, Dict, List, Optional
+
+_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, Field

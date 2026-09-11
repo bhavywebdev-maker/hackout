@@ -9,7 +9,12 @@ from datetime import datetime, timezone
 import json
 import logging
 from pathlib import Path
+import sys
 from typing import Any, Dict, List, Optional
+
+_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 from fastapi import FastAPI, HTTPException, Query, status
 from fastapi.responses import JSONResponse
@@ -27,6 +32,7 @@ from services.orchestrator.consent import (
     record_consent_event,
 )
 from services.orchestrator.pipeline import (
+    _get_asgi_app,
     call_chatbot_chat,
     call_early_warning_check,
     call_early_warning_intervene,
@@ -84,18 +90,33 @@ async def health() -> Dict[str, Any]:
     """Health check endpoint probing downstream services in parallel."""
     urls = get_service_urls()
 
-    async def _ping(url: str) -> str:
+    async def _ping(service_name: str, url: str) -> str:
         try:
-            async with httpx.AsyncClient(timeout=2.0) as client:
+            async with httpx.AsyncClient(timeout=1.5) as client:
                 resp = await client.get(f"{url}/health")
-                return "up" if resp.status_code == 200 else "down"
+                if resp.status_code == 200:
+                    return "up"
         except Exception:
-            return "down"
+            pass
+
+        # In-memory ASGI fallback (Vercel / serverless environment)
+        try:
+            asgi_app = _get_asgi_app(service_name)
+            if asgi_app is not None:
+                transport = httpx.ASGITransport(app=asgi_app)
+                async with httpx.AsyncClient(transport=transport, base_url="http://internal") as client:
+                    resp = await client.get("/health", timeout=2.0)
+                    if resp.status_code == 200:
+                        return "up"
+        except Exception:
+            pass
+
+        return "down"
 
     rec_status, chat_status, ew_status = await asyncio.gather(
-        _ping(urls["recommender"]),
-        _ping(urls["chatbot"]),
-        _ping(urls["early_warning"]),
+        _ping("recommender", urls["recommender"]),
+        _ping("chatbot", urls["chatbot"]),
+        _ping("early_warning", urls["early_warning"]),
     )
 
     return {
