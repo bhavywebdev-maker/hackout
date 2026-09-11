@@ -81,16 +81,11 @@ def train_life_stage_model(customer_features_list: List[Dict[str, Any]]) -> Tupl
 
     try:
         import numpy as np
+        import xgboost as xgb
         from sklearn.model_selection import train_test_split
         from sklearn.metrics import accuracy_score
-        try:
-            import xgboost as xgb
-            has_xgb = True
-        except Exception:
-            has_xgb = False
-            from sklearn.ensemble import GradientBoostingClassifier
     except Exception as e:
-        logger.warning(f"ML runtime not available ({e}); rule-based fallback used")
+        logger.warning(f"XGBoost runtime not available ({e}); rule-based fallback used")
         return None, 0.0, True
 
     if len(customer_features_list) < 10:
@@ -116,23 +111,15 @@ def train_life_stage_model(customer_features_list: List[Dict[str, Any]]) -> Tupl
         X_arr, y_arr, test_size=0.20, random_state=42, stratify=y_arr if len(set(y_arr)) > 1 else None
     )
 
-    if has_xgb:
-        clf = xgb.XGBClassifier(
-            objective="multi:softprob",
-            num_class=5,
-            n_estimators=40,
-            max_depth=3,
-            learning_rate=0.1,
-            random_state=42,
-            eval_metric="mlogloss"
-        )
-    else:
-        clf = GradientBoostingClassifier(
-            n_estimators=40,
-            max_depth=3,
-            learning_rate=0.1,
-            random_state=42,
-        )
+    clf = xgb.XGBClassifier(
+        objective="multi:softprob",
+        num_class=5,
+        n_estimators=40,
+        max_depth=3,
+        learning_rate=0.1,
+        random_state=42,
+        eval_metric="mlogloss"
+    )
     clf.fit(X_train, y_train)
 
     train_preds = clf.predict(X_train)
@@ -141,8 +128,7 @@ def train_life_stage_model(customer_features_list: List[Dict[str, Any]]) -> Tupl
     train_acc = float(accuracy_score(y_train, train_preds))
     test_acc = float(accuracy_score(y_test, test_preds))
 
-    model_type = "XGBoost" if has_xgb else "GradientBoosting"
-    logger.info(f"{model_type} Life-Stage Classifier trained. Train Acc: {train_acc:.2%}, Test Acc: {test_acc:.2%}")
+    logger.info(f"XGBoost Life-Stage Classifier trained. Train Acc: {train_acc:.2%}, Test Acc: {test_acc:.2%}")
 
     models_dir = Path(__file__).parent / "models"
     models_dir.mkdir(parents=True, exist_ok=True)
