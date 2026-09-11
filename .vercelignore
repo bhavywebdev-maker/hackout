@@ -1,8 +1,0 @@
-.git
-.venv
-venv
-docs
-scripts
-frontend
-*.md
-!README.md
