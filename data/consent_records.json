@@ -1,0 +1,1452 @@
+[
+  {
+    "customer_id": "CUST0001",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0002",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0003",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0004",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0005",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0006",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0007",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0008",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0009",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0010",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0011",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0012",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0013",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0014",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0015",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0016",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0017",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0018",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0019",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0020",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0021",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0022",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0023",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0024",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0025",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0026",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0027",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0028",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0029",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0030",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0031",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0032",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0033",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "stress_detection",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0034",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0035",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0036",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0037",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0038",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0039",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0040",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0041",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0042",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0001",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0002",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0003",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0004",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0005",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0006",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0007",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  },
+  {
+    "customer_id": "STRESS0008",
+    "consents": [
+      {
+        "purpose": "recommendation",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "stress_detection",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "chatbot",
+        "given": true,
+        "timestamp": "2026-01-01T10:00:00Z",
+        "expires_at": "2027-12-31T23:59:59Z"
+      },
+      {
+        "purpose": "marketing",
+        "given": false,
+        "timestamp": null,
+        "expires_at": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,904 @@
+[
+  {
+    "customer_id": "CUST0001",
+    "name": "Aarav Sharma",
+    "age": 51,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 44000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "hi",
+    "existing_products": [
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0002",
+    "name": "Priya Patel",
+    "age": 24,
+    "gender": "female",
+    "occupation": "farmer",
+    "monthly_income": 22000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "en",
+    "existing_products": [
+      "credit_card",
+      "kisan_credit_card",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0003",
+    "name": "Vivaan Verma",
+    "age": 45,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 35000,
+    "dependents": 3,
+    "city_tier": 3,
+    "preferred_language": "ta",
+    "existing_products": [
+      "gold_loan",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0004",
+    "name": "Ananya Singh",
+    "age": 38,
+    "gender": "female",
+    "occupation": "farmer",
+    "monthly_income": 33000,
+    "dependents": 4,
+    "city_tier": 1,
+    "preferred_language": "te",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "home_loan",
+      "kisan_credit_card",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0005",
+    "name": "Vihaan Kumar",
+    "age": 67,
+    "gender": "male",
+    "occupation": "farmer",
+    "monthly_income": 43000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "bn",
+    "existing_products": [
+      "fixed_deposit",
+      "kisan_credit_card",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "not_started"
+  },
+  {
+    "customer_id": "CUST0006",
+    "name": "Diya Gupta",
+    "age": 34,
+    "gender": "female",
+    "occupation": "farmer",
+    "monthly_income": 49000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "mr",
+    "existing_products": [
+      "credit_card",
+      "kisan_credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "CUST0007",
+    "name": "Arjun Reddy",
+    "age": 68,
+    "gender": "male",
+    "occupation": "retired",
+    "monthly_income": 38000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "gu",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0008",
+    "name": "Ishita Nair",
+    "age": 35,
+    "gender": "female",
+    "occupation": "self_employed",
+    "monthly_income": 154000,
+    "dependents": 2,
+    "city_tier": 4,
+    "preferred_language": "kn",
+    "existing_products": [
+      "credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0009",
+    "name": "Reyansh Chatterjee",
+    "age": 27,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 66000,
+    "dependents": 0,
+    "city_tier": 2,
+    "preferred_language": "ml",
+    "existing_products": [
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0010",
+    "name": "Kavya Banerjee",
+    "age": 48,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 65000,
+    "dependents": 4,
+    "city_tier": 2,
+    "preferred_language": "pa",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0011",
+    "name": "Aayan Mukherjee",
+    "age": 34,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 62000,
+    "dependents": 2,
+    "city_tier": 2,
+    "preferred_language": "hi",
+    "existing_products": [
+      "credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0012",
+    "name": "Khushi Das",
+    "age": 49,
+    "gender": "female",
+    "occupation": "gig_worker",
+    "monthly_income": 25000,
+    "dependents": 0,
+    "city_tier": 2,
+    "preferred_language": "en",
+    "existing_products": [
+      "gold_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0013",
+    "name": "Krishna Ghosh",
+    "age": 43,
+    "gender": "male",
+    "occupation": "self_employed",
+    "monthly_income": 126000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "ta",
+    "existing_products": [
+      "credit_card",
+      "fixed_deposit",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0014",
+    "name": "Meera Iyer",
+    "age": 27,
+    "gender": "female",
+    "occupation": "self_employed",
+    "monthly_income": 171000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "te",
+    "existing_products": [
+      "credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0015",
+    "name": "Ishan Iyengar",
+    "age": 42,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 25000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "bn",
+    "existing_products": [
+      "gold_loan",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "not_started"
+  },
+  {
+    "customer_id": "CUST0016",
+    "name": "Pari Rao",
+    "age": 30,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 137000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "mr",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "CUST0017",
+    "name": "Shaurya Joshi",
+    "age": 59,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 98000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "gu",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0018",
+    "name": "Pooja Kulkarni",
+    "age": 67,
+    "gender": "female",
+    "occupation": "retired",
+    "monthly_income": 42000,
+    "dependents": 1,
+    "city_tier": 3,
+    "preferred_language": "kn",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0019",
+    "name": "Atharva Deshmukh",
+    "age": 36,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 73000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "ml",
+    "existing_products": [
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0020",
+    "name": "Riya Patil",
+    "age": 31,
+    "gender": "female",
+    "occupation": "gig_worker",
+    "monthly_income": 37000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "pa",
+    "existing_products": [
+      "gold_loan",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0021",
+    "name": "Advik Mehta",
+    "age": 33,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 139000,
+    "dependents": 1,
+    "city_tier": 3,
+    "preferred_language": "hi",
+    "existing_products": [
+      "credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0022",
+    "name": "Sneha Shah",
+    "age": 31,
+    "gender": "female",
+    "occupation": "self_employed",
+    "monthly_income": 143000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "en",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "CUST0023",
+    "name": "Pranav Agarwal",
+    "age": 37,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 80000,
+    "dependents": 3,
+    "city_tier": 3,
+    "preferred_language": "ta",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "fixed_deposit",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0024",
+    "name": "Tanvi Bansal",
+    "age": 61,
+    "gender": "female",
+    "occupation": "retired",
+    "monthly_income": 62000,
+    "dependents": 2,
+    "city_tier": 4,
+    "preferred_language": "te",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0025",
+    "name": "Rajesh Choudhury",
+    "age": 41,
+    "gender": "male",
+    "occupation": "self_employed",
+    "monthly_income": 84000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "bn",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "fixed_deposit",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0026",
+    "name": "Sunita Yadav",
+    "age": 27,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 95000,
+    "dependents": 1,
+    "city_tier": 2,
+    "preferred_language": "mr",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0027",
+    "name": "Suresh Tiwari",
+    "age": 32,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 50000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "gu",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0028",
+    "name": "Geeta Mishra",
+    "age": 62,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 151000,
+    "dependents": 2,
+    "city_tier": 2,
+    "preferred_language": "kn",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "not_started"
+  },
+  {
+    "customer_id": "CUST0029",
+    "name": "Ramesh Gill",
+    "age": 38,
+    "gender": "male",
+    "occupation": "self_employed",
+    "monthly_income": 113000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "ml",
+    "existing_products": [
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0030",
+    "name": "Anita Dhillon",
+    "age": 44,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 79000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "pa",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "fixed_deposit",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "CUST0031",
+    "name": "Sunil Sandhu",
+    "age": 22,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 64000,
+    "dependents": 1,
+    "city_tier": 2,
+    "preferred_language": "hi",
+    "existing_products": [
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0032",
+    "name": "Rekha Bhatia",
+    "age": 25,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 39000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "en",
+    "existing_products": [
+      "credit_card",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0033",
+    "name": "Anil Saxena",
+    "age": 47,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 233000,
+    "dependents": 4,
+    "city_tier": 1,
+    "preferred_language": "ta",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0034",
+    "name": "Lakshmi Bhattacharya",
+    "age": 22,
+    "gender": "female",
+    "occupation": "student",
+    "monthly_income": 19000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "te",
+    "existing_products": [
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0035",
+    "name": "Manoj Sengupta",
+    "age": 22,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 61000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "bn",
+    "existing_products": [
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0036",
+    "name": "Manpreet Kaur",
+    "age": 22,
+    "gender": "female",
+    "occupation": "student",
+    "monthly_income": 20000,
+    "dependents": 0,
+    "city_tier": 3,
+    "preferred_language": "mr",
+    "existing_products": [
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0037",
+    "name": "Karthik Subramanian",
+    "age": 51,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 37000,
+    "dependents": 2,
+    "city_tier": 2,
+    "preferred_language": "gu",
+    "existing_products": [
+      "gold_loan",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0038",
+    "name": "Swati Nambiar",
+    "age": 25,
+    "gender": "female",
+    "occupation": "gig_worker",
+    "monthly_income": 41000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "kn",
+    "existing_products": [
+      "gold_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "CUST0039",
+    "name": "Venkatesh Pillai",
+    "age": 27,
+    "gender": "male",
+    "occupation": "self_employed",
+    "monthly_income": 62000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "ml",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0040",
+    "name": "Deepa Menon",
+    "age": 27,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 53000,
+    "dependents": 1,
+    "city_tier": 4,
+    "preferred_language": "pa",
+    "existing_products": [
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0041",
+    "name": "Murugan Chettiar",
+    "age": 22,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 72000,
+    "dependents": 0,
+    "city_tier": 4,
+    "preferred_language": "hi",
+    "existing_products": [
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "CUST0042",
+    "name": "Kiran Venkatesan",
+    "age": 60,
+    "gender": "other",
+    "occupation": "salaried",
+    "monthly_income": 148000,
+    "dependents": 3,
+    "city_tier": 1,
+    "preferred_language": "en",
+    "existing_products": [
+      "credit_card",
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "STRESS0001",
+    "name": "Amit Malhotra",
+    "age": 27,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 54000,
+    "dependents": 1,
+    "city_tier": 1,
+    "preferred_language": "ta",
+    "existing_products": [
+      "credit_card",
+      "personal_loan",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "STRESS0002",
+    "name": "Neha Kapoor",
+    "age": 52,
+    "gender": "female",
+    "occupation": "self_employed",
+    "monthly_income": 206000,
+    "dependents": 2,
+    "city_tier": 2,
+    "preferred_language": "te",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "STRESS0003",
+    "name": "Vikram Chauhan",
+    "age": 50,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 47000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "bn",
+    "existing_products": [
+      "gold_loan",
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "STRESS0004",
+    "name": "Suman Pandey",
+    "age": 36,
+    "gender": "female",
+    "occupation": "self_employed",
+    "monthly_income": 61000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "mr",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "savings"
+    ],
+    "life_stage": "first_borrower",
+    "kyc_status": "complete"
+  },
+  {
+    "customer_id": "STRESS0005",
+    "name": "Gaurav Dubey",
+    "age": 41,
+    "gender": "male",
+    "occupation": "salaried",
+    "monthly_income": 106000,
+    "dependents": 2,
+    "city_tier": 3,
+    "preferred_language": "gu",
+    "existing_products": [
+      "auto_loan",
+      "credit_card",
+      "home_loan",
+      "savings"
+    ],
+    "life_stage": "growing_family",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "STRESS0006",
+    "name": "Pooja Tripathi",
+    "age": 28,
+    "gender": "female",
+    "occupation": "salaried",
+    "monthly_income": 58000,
+    "dependents": 0,
+    "city_tier": 2,
+    "preferred_language": "kn",
+    "existing_products": [
+      "credit_card",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "young_saver",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "STRESS0007",
+    "name": "Sachin Bhardwaj",
+    "age": 30,
+    "gender": "male",
+    "occupation": "gig_worker",
+    "monthly_income": 45000,
+    "dependents": 0,
+    "city_tier": 1,
+    "preferred_language": "ml",
+    "existing_products": [
+      "savings"
+    ],
+    "life_stage": "gig_worker",
+    "kyc_status": "pending"
+  },
+  {
+    "customer_id": "STRESS0008",
+    "name": "Simran Arora",
+    "age": 61,
+    "gender": "female",
+    "occupation": "retired",
+    "monthly_income": 40000,
+    "dependents": 2,
+    "city_tier": 1,
+    "preferred_language": "pa",
+    "existing_products": [
+      "fixed_deposit",
+      "recurring_deposit",
+      "savings"
+    ],
+    "life_stage": "near_retirement",
+    "kyc_status": "complete"
+  }
+]
